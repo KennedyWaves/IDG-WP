@@ -1,0 +1,44 @@
+.title-logo{
+    display: inline-flex;
+}
+
+#logo-img{
+    height: 45px;
+    margin-right: 10px;
+}
+
+.nav.d-none.d-md-flex ul{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#accessibility-bar{
+    margin-top: 6px !important;
+}
+
+@media(max-width: 1150px){
+    #logo-img{
+        display: none;
+    }
+
+    .title-logo{
+        text-align: center;
+        display: block !important;
+    }
+
+    .nav.d-none.d-md-flex{
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+.home-content-section{
+    width: calc(100% - 340px)!important;
+}
+
+#links-uteis{
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+}

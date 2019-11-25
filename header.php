@@ -24,6 +24,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicons/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicons/favicon-16x16.png" />
 	<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/manifest.json" />
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/stylesheets/src/custom.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -39,9 +40,12 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-lg-8 title-wrapper">
-				<p class="site-denomination mb-0"><?php bloginfo( 'description' ); ?></p>
-				<h1 class="site-title mt-0 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<div class="col-md-6 col-lg-8 title-wrapper title-logo">
+				<img id="logo-img" src="http://192.168.56.102/pget/wp-content/uploads/2019/11/Asset-1-8.png">
+				<div id="main-description">
+					<p class="site-denomination mb-0"><?php bloginfo( 'description' ); ?></p>
+					<h1 class="site-title mt-0 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				</div>
 			</div>
 			<div class="col-md-6 col-lg-4 d-none d-md-block">
 				<ul id="accessibility-bar" class="text-right">

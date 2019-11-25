@@ -136,7 +136,7 @@ get_header();
 					</div>
 
 					<div class="col-lg-12 text-center">
-						<a href="<?php echo home_url( '/categoria/noticias/' ); ?>" class="btn text-uppercase mt-1">Mais
+						<a href="<?php echo home_url( '/index.php/category/noticias/' ); ?>" class="btn text-uppercase mt-1">Mais
 							notícias</a>
 					</div>
 				</div>
@@ -168,6 +168,8 @@ get_header();
 							endif;
 							?>
 						</div>
+						<!--<div id="links-uteis">
+						</div>-->
 					</div>
 				</div>
 			</section>
